@@ -1,0 +1,184 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+}
+
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 100px;
+  background: #ffffff;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  height: 120vh;
+  gap: 50px;
+}
+
+.sidebar .logo {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.sidebar nav ul {
+  list-style: none;
+}
+
+.sidebar nav ul li {
+  margin-left: -30px;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.main-content {
+  flex: 1;
+  background: #f5f5f5;
+  padding: 20px;
+  width: 1070px;
+
+}
+
+header {
+  margin-bottom: 20px;
+  display: flex;
+
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header p {
+  color: #777;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 50px;
+}
+
+.search-bar input {
+
+  padding: 8px;
+  padding-right: 400px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+
+}
+
+.search-bar i {
+  font-size: 20px;
+  color: #555;
+  margin-left: 180px;
+}
+
+.banner {
+  background: linear-gradient(45deg, #f9a825, #f06292 );
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.banner h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.banner p {
+  margin: 10px 0;
+}
+
+.banner button {
+  background: #fff;
+  color: #f06292;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.your-courses {
+  margin-bottom: 20px;
+}
+
+.your-courses h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.course-list {
+  display: flex;
+  gap: 20px;
+  
+}
+
+.course-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+.course-card h3 {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.course-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.course-card p i {
+  margin-left: 5px;
+}
+
+.instructors {
+  margin-bottom: 20px;
+}
+
+.instructors h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.instructor-list {
+  display: flex;
+  gap: 20px;
+}
+
+.instructor-card {
+  background: #fff9f9;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+.instructor-card p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.instructor-card button {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
